@@ -1,0 +1,45 @@
+var projects = {
+  "projects": 
+  [
+    {
+      "id": 1,
+      "name": "project1",
+      "description": "blahhhh",
+      "before": "img/test.png",
+      "after": "img/test.png",
+      "gallery": 
+      [
+        "img/test.png",
+        "img/test.png",
+        "img/test.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "project2",
+      "description": "blahhhh",
+      "before": "img/test.png",
+      "after": "img/test.png",
+      "gallery": 
+      [
+        "img/test.png",
+        "img/test.png",
+        "img/test.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "project3",
+      "description": "blahhhh",
+      "before": "img/test.png",
+      "after": "img/test.png",
+      "gallery": 
+      [
+        "img/test.png",
+        "img/test.png",
+        "img/test.png"
+      ]
+    }
+  ]
+
+};
