@@ -1,0 +1,30 @@
+var servicesData = {
+  "services": 
+  [
+    {
+      "id": 1,
+      "name": "service1",
+      "description": "blahhhh",
+      "img": "img/1.jpg",
+    },
+    {
+      "id": 2,
+      "name": "service2",
+      "description": "blahhhh",
+      "img": "img/1.jpg",
+    },
+    {
+      "id": 3,
+      "name": "service3",
+      "description": "blahhhh",
+      "img": "img/1.jpg",
+    },
+    {
+      "id": 4,
+      "name": "service4",
+      "description": "blahhhh",
+      "img": "img/1.jpg",
+    }
+  ]
+
+};
