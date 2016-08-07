@@ -24,6 +24,12 @@ var servicesData = {
       "name": "service4",
       "description": "blahhhh",
       "img": "img/1.jpg",
+    },
+    {
+      "id": 5,
+      "name": "service5",
+      "description": "blahhhh",
+      "img": "img/1.jpg",
     }
   ]
 
