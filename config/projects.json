@@ -1,4 +1,4 @@
-var projects = {
+var projectData = {
   "projects": 
   [
     {
@@ -9,6 +9,8 @@ var projects = {
       "after": "img/test.png",
       "gallery": 
       [
+        "img/test.png",
+        "img/test.png",
         "img/test.png",
         "img/test.png",
         "img/test.png"
@@ -30,6 +32,32 @@ var projects = {
     {
       "id": 3,
       "name": "project3",
+      "description": "blahhhh",
+      "before": "img/test.png",
+      "after": "img/test.png",
+      "gallery": 
+      [
+        "img/test.png",
+        "img/test.png",
+        "img/test.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "project4",
+      "description": "blahhhh",
+      "before": "img/test.png",
+      "after": "img/test.png",
+      "gallery": 
+      [
+        "img/test.png",
+        "img/test.png",
+        "img/test.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "project5",
       "description": "blahhhh",
       "before": "img/test.png",
       "after": "img/test.png",

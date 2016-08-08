@@ -19,3 +19,52 @@ $( document ).ready(function() {
 
     $("#servicesDiv").html(servicesHtml);
 });
+
+$('#portfolioModal3').on('show.bs.modal', function (event) {
+	console.log("ehehe");
+	var button = $(event.relatedTarget) // Button that triggered the modal
+	var projectId = button.data('project') // Extract info from data-* attributes
+
+ 	var projectInfo;
+	for(index in projectData.projects)
+	{
+		var tempProjectInfo = projectData.projects[index];
+		if(tempProjectInfo.id == projectId)
+		{
+			projectInfo = tempProjectInfo;
+	console.log("found you");
+		}
+
+	}
+
+	var carouselHtml = "";
+	var carouselIndicatorHtml = "";
+	if(projectInfo != null)
+	{
+	console.log("add you");
+		var modal = $(this)
+		for(index in projectInfo.gallery)
+		{
+	console.log("add 1");
+			var carouselString = ""+
+			"<div class=\"item\">"+
+            	"<img src=\"img/gallery/fullsize/IMG_2814_c_1x1.jpg\" alt=\"...\">"+
+            "</div>";
+			carouselHtml = carouselHtml.concat(carouselString);
+
+			var carouselIndicatorString = ""+
+			"<li data-target=\"#carousel-example-generic\" data-slide-to=\""+index+"\"></li>";
+			carouselIndicatorHtml = carouselIndicatorHtml.concat(carouselIndicatorString);
+
+		}
+
+	console.log(carouselHtml);
+		$(".carousel-inner").html(carouselHtml);
+		$(".carousel-indicators").html(carouselIndicatorHtml);
+
+		$('.item').first().addClass('active');
+		$('.carousel-indicators > li').first().addClass('active');
+
+		$('#carousel-example-generic').carousel();
+	}
+});
