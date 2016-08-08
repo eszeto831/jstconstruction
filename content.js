@@ -6,7 +6,7 @@ $( document ).ready(function() {
 	{
 		var serviceInfo = servicesData.services[index];
 	    var serviceString = ""+
-                "<div class=\"col-md-3 col-sm-4 portfolio-item\">"+
+                "<div class=\"col-md-3 col-xs-3\">"+
                         "<img src=\""+serviceInfo.img+"\" class=\"img-responsive\" alt=\"\">"+
                     "<div class=\"portfolio-caption\">"+
                         "<h4>"+serviceInfo.name+"</h4>"+
