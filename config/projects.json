@@ -3,32 +3,34 @@ var projectData = {
   [
     {
       "id": 1,
-      "name": "project1",
+      "name": "Wang Bathroom",
       "description": "blahhhh",
-      "before": "img/gallery/test.jpg",
-      "after": "img/gallery/test.jpg",
+      "before": "img/gallery/Bathroom/Wang/Wang_IMG2818.jpg",
+      "after": "img/gallery/Bathroom/Wang/Wang_IMG2818.jpg",
       "gallery": 
       [
-        "img/gallery/test.jpg",
-        "img/gallery/test.jpg",
-        "img/gallery/test.jpg",
-        "img/gallery/test.jpg",
-        "img/gallery/test.jpg"
+        "img/gallery/Bathroom/Wang/Wang_IMG2814.jpg",
+        "img/gallery/Bathroom/Wang/Wang_IMG2816.jpg",
+        "img/gallery/Bathroom/Wang/Wang_IMG2818.jpg",
+        "img/gallery/Bathroom/Wang/Wang_IMG2826.jpg"
       ]
     },
     {
       "id": 2,
-      "name": "project2",
+      "name": "Kitchen",
       "description": "blahhhh",
-      "before": "img/gallery/test.jpg",
-      "after": "img/gallery/test.jpg",
+      "before": "img/gallery/Kitchen/After/Horvai_IMG3295.jpg",
+      "after": "img/gallery/Kitchen/After/Horvai_IMG3295.jpg",
       "gallery": 
       [
-        "img/gallery/test.jpg",
-        "img/gallery/test.jpg",
-        "img/gallery/test.jpg",
-        "img/gallery/test.jpg",
-        "img/gallery/test.jpg"
+        "img/gallery/Kitchen/Before/Horvai_B4_IMG4182.jpg",
+        "img/gallery/Kitchen/Before/Horvai_B4_IMG4183.jpg",
+        "img/gallery/Kitchen/Before/Horvai_B4_IMG4186.jpg",
+        "img/gallery/Kitchen/After/20160524_160101.jpg",
+        "img/gallery/Kitchen/After/Horvai_IMG3295.jpg",
+        "img/gallery/Kitchen/After/Horvai_IMG3306.jpg",
+        "img/gallery/Kitchen/After/Horvai_IMG3338.jpg",
+        "img/gallery/Kitchen/After/Horvai_IMG3341.jpg"
       ]
     },
     {
