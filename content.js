@@ -6,18 +6,41 @@ $( document ).ready(function() {
 	{
 		var serviceInfo = servicesData.services[index];
 	    var serviceString = ""+
-            "<div class=\"col-md-4\">"+
-                "<span class=\"fa-stack fa-4x\">"+
-                    "<i class=\"fa fa-circle fa-stack-2x text-primary\"></i>"+
-                    "<i class=\"fa fa-shopping-cart fa-stack-1x fa-inverse\"></i>"+
-                "</span>"+
-                "<h4 class=\"service-heading\">E-Commerce</h4>"+
-                "<p class=\"text-muted\">"+serviceInfo.name+"</p>"+
-            "</div>";
+                "<div class=\"col-md-4 col-sm-6 portfolio-item\">"+
+                        "<img src=\""+serviceInfo.img+"\" class=\"img-responsive\" alt=\"\">"+
+                    "<div class=\"portfolio-caption\">"+
+                        "<h4>"+serviceInfo.name+"</h4>"+
+                        "<p class=\"text-muted\">"+serviceInfo.description+"</p>"+
+                    "</div>"+
+                "</div>";
 		servicesHtml = servicesHtml.concat(serviceString);
 	}
 
     $("#servicesDiv").html(servicesHtml);
+
+	var portfolioHtml = "";
+	for(index in projectData.projects)
+	{
+		var portfolioInfo = projectData.projects[index];
+	    var portfolioString = ""+
+                "<div class=\"col-md-4 col-sm-6 portfolio-item\">"+
+                    "<a href=\"#portfolioModal3\" class=\"portfolio-link\" data-toggle=\"modal\" data-project=\""+portfolioInfo.id+"\">"+
+                        "<div class=\"portfolio-hover\">"+
+                            "<div class=\"portfolio-hover-content\">"+
+                                "<i class=\"fa fa-plus fa-3x\"></i>"+
+                            "</div>"+
+                        "</div>"+
+                        "<img src=\""+portfolioInfo.after+"\" class=\"img-responsive\" alt=\"\">"+
+                    "</a>"+
+                    "<div class=\"portfolio-caption\">"+
+                        "<h4>"+portfolioInfo.name+"</h4>"+
+                        "<p class=\"text-muted\">"+portfolioInfo.description+"</p>"+
+                    "</div>"+
+                "</div>";
+		portfolioHtml = portfolioHtml.concat(portfolioString);
+	}
+
+    $("#portfolioDiv").html(portfolioHtml);
 });
 
 $('#portfolioModal3').on('show.bs.modal', function (event) {
@@ -46,9 +69,11 @@ $('#portfolioModal3').on('show.bs.modal', function (event) {
 		for(index in projectInfo.gallery)
 		{
 	console.log("add 1");
+			var imageUrl = projectInfo.gallery[index];
+			console.log("add string "+imageUrl);
 			var carouselString = ""+
 			"<div class=\"item\">"+
-            	"<img src=\"img/gallery/fullsize/IMG_2814_c_1x1.jpg\" alt=\"...\">"+
+            	"<img src=\""+imageUrl+"\" alt=\"...\">"+
             "</div>";
 			carouselHtml = carouselHtml.concat(carouselString);
 
@@ -66,5 +91,8 @@ $('#portfolioModal3').on('show.bs.modal', function (event) {
 		$('.carousel-indicators > li').first().addClass('active');
 
 		$('#carousel-example-generic').carousel();
+
+    	$("#projectNameModalDiv").html(projectInfo.name);
+    	$("#projectDescModalDiv").html(projectInfo.description);
 	}
 });

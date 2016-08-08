@@ -5,31 +5,31 @@ var servicesData = {
       "id": 1,
       "name": "service1",
       "description": "blahhhh",
-      "img": "img/1.jpg",
+      "img": "img/services/test.jpg"
     },
     {
       "id": 2,
       "name": "service2",
       "description": "blahhhh",
-      "img": "img/1.jpg",
+      "img": "img/services/test.jpg"
     },
     {
       "id": 3,
       "name": "service3",
       "description": "blahhhh",
-      "img": "img/1.jpg",
+      "img": "img/services/test.jpg"
     },
     {
       "id": 4,
       "name": "service4",
       "description": "blahhhh",
-      "img": "img/1.jpg",
+      "img": "img/services/test.jpg"
     },
     {
       "id": 5,
       "name": "service5",
       "description": "blahhhh",
-      "img": "img/1.jpg",
+      "img": "img/services/test.jpg"
     }
   ]
 
