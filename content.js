@@ -1,5 +1,7 @@
 $( document ).ready(function() {
-    $('#aboutSub').html(homeData.text);
+    $('#landingTitle').html(homeData.landingTitle);
+    $('#landingSubtitle').html(homeData.landingSubtitle);
+    $('#aboutSub').html(homeData.aboutText);
 
 	var servicesHtml = "";
 	for(index in servicesData.services)
