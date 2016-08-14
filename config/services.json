@@ -3,33 +3,27 @@ var servicesData = {
   [
     {
       "id": 1,
-      "name": "service1",
-      "description": "blahhhh",
-      "img": "img/services/test.jpg"
+      "name": "Living Room",
+      "description": "Home entertainment systems, wide open living space, cozy coffee break room.",
+      "img": "img/services/livingroom.jpg"
     },
     {
       "id": 2,
-      "name": "service2",
-      "description": "blahhhh",
-      "img": "img/services/test.jpg"
+      "name": "Bathroom",
+      "description": "Installing tiles, showers, toilets, sinks, pipes.",
+      "img": "img/services/bathroom.jpg"
     },
     {
       "id": 3,
-      "name": "service3",
-      "description": "blahhhh",
-      "img": "img/services/test.jpg"
+      "name": "Kitchen",
+      "description": "Rebuilding kitchens from the ground up.",
+      "img": "img/services/kitchen.jpg"
     },
     {
       "id": 4,
-      "name": "service4",
-      "description": "blahhhh",
-      "img": "img/services/test.jpg"
-    },
-    {
-      "id": 5,
-      "name": "service5",
-      "description": "blahhhh",
-      "img": "img/services/test.jpg"
+      "name": "Lighting",
+      "description": "Lighting up the house with recessed lights, hanging lights, chandeliers.",
+      "img": "img/services/lighting.jpg"
     }
   ]
 
