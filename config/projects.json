@@ -3,7 +3,7 @@ var projectData = {
   [
     {
       "id": 1,
-      "name": "Wang Bathroom",
+      "name": "Bathroom Remodel",
       "description": "blahhhh",
       "before": "img/gallery/Bathroom/Wang/Wang_IMG2818.jpg",
       "after": "img/gallery/Bathroom/Wang/Wang_IMG2818.jpg",
@@ -17,7 +17,7 @@ var projectData = {
     },
     {
       "id": 2,
-      "name": "Kitchen",
+      "name": "Kitchen Remodel",
       "description": "blahhhh",
       "before": "img/gallery/Kitchen/After/Horvai_IMG3295.jpg",
       "after": "img/gallery/Kitchen/After/Horvai_IMG3295.jpg",

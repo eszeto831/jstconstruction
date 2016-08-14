@@ -10,11 +10,11 @@ $( document ).ready(function() {
 	    var serviceString = ""+
                 "<div class=\"col-md-3 col-xs-3\">"+
                     "<span class=\"fa-stack fa-4x\">"+
-                        //"<i class=\"fa fa-circle fa-stack-2x text-primary\"></i>"+
+                        "<i class=\"fa fa-circle fa-stack-2x text-primary\"></i>"+
                         //"<i class=\"fa fa-shopping-cart fa-stack-1x fa-inverse\"></i>"+
-                    	"<img src=\""+serviceInfo.img+"\" class=\"fa fa-circle fa-stack-1x\" alt=\"\">"+
+                    	"<img src=\""+serviceInfo.img+"\" class=\"fa fa-circle fa-stack-1x img-circle\" alt=\"\">"+
                     "</span>"+
-                    //"<img src=\""+serviceInfo.img+"\" class=\"img-responsive\" alt=\"\">"+
+                    //"<img src=\""+serviceInfo.img+"\" class=\"img-responsive img-circle\" alt=\"\">"+
                 	"<div class=\"portfolio-caption\">"+
                         "<h4>"+serviceInfo.name+"</h4>"+
                         "<p class=\"text-muted\">"+serviceInfo.description+"</p>"+
@@ -35,7 +35,7 @@ $( document ).ready(function() {
                     "<a href=\"gallery.html?project="+portfolioInfo.id+"\" class=\"portfolio-link\" data-project=\""+portfolioInfo.id+"\">"+
                         "<div class=\"portfolio-hover\">"+
                             "<div class=\"portfolio-hover-content\">"+
-                                "<i class=\"fa fa-plus fa-3x\"></i>"+
+                                "<i class=\"fa fa-search fa-3x\"></i>"+
                             "</div>"+
                         "</div>"+
                         "<img src=\""+portfolioInfo.after+"\" class=\"img-responsive\" alt=\"\">"+
