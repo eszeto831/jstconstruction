@@ -1,5 +1,6 @@
 var homeData = {
   "text": "TESTINGGGGG",
-  "image": "img/test.png"
+  "image": "img/test.png",
+  "footerText": "Copyright &copy; JST Construction 2016"
 };
 
