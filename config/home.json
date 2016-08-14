@@ -1,6 +1,6 @@
 var homeData = {
-  "landingTitle": "TESTINGGGGG",
-  "landingSubtitle": "TESTINGGGGG",
+  "landingTitle": "Greetings from",
+  "landingSubtitle": "JST Construction Family",
   "aboutText": "TESTINGGGGG",
   "aboutImage": "img/test.png",
   "footerText": "Copyright &copy; JST Construction 2016"
