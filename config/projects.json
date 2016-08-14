@@ -32,21 +32,6 @@ var projectData = {
         "img/gallery/Kitchen/After/Horvai_IMG3338.jpg",
         "img/gallery/Kitchen/After/Horvai_IMG3341.jpg"
       ]
-    },
-    {
-      "id": 3,
-      "name": "project3",
-      "description": "blahhhh",
-      "before": "img/gallery/test.jpg",
-      "after": "img/gallery/test.jpg",
-      "gallery": 
-      [
-        "img/gallery/test.jpg",
-        "img/gallery/test.jpg",
-        "img/gallery/test.jpg",
-        "img/gallery/test.jpg",
-        "img/gallery/test.jpg"
-      ]
     }
   ]
 

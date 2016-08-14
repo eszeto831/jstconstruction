@@ -9,14 +9,20 @@ $( document ).ready(function() {
 		var serviceInfo = servicesData.services[index];
 	    var serviceString = ""+
                 "<div class=\"col-md-3 col-xs-3\">"+
-                        "<img src=\""+serviceInfo.img+"\" class=\"img-responsive\" alt=\"\">"+
-                    "<div class=\"portfolio-caption\">"+
+                    "<span class=\"fa-stack fa-4x\">"+
+                        //"<i class=\"fa fa-circle fa-stack-2x text-primary\"></i>"+
+                        //"<i class=\"fa fa-shopping-cart fa-stack-1x fa-inverse\"></i>"+
+                    	"<img src=\""+serviceInfo.img+"\" class=\"fa fa-circle fa-stack-1x\" alt=\"\">"+
+                    "</span>"+
+                    //"<img src=\""+serviceInfo.img+"\" class=\"img-responsive\" alt=\"\">"+
+                	"<div class=\"portfolio-caption\">"+
                         "<h4>"+serviceInfo.name+"</h4>"+
                         "<p class=\"text-muted\">"+serviceInfo.description+"</p>"+
                     "</div>"+
                 "</div>";
 		servicesHtml = servicesHtml.concat(serviceString);
 	}
+    //"<i class=\"fa fa-shopping-cart fa-stack-1x fa-inverse\"></i>"
 
     $("#servicesDiv").html(servicesHtml);
 
