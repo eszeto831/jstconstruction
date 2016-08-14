@@ -24,7 +24,7 @@ $( document ).ready(function() {
 		var portfolioInfo = projectData.projects[index];
 	    var portfolioString = ""+
                 "<div class=\"col-md-4 col-sm-6 portfolio-item\">"+
-                    "<a href=\"#portfolioModal3\" class=\"portfolio-link\" data-toggle=\"modal\" data-project=\""+portfolioInfo.id+"\">"+
+                    "<a href=\"gallery.html?project="+portfolioInfo.id+"\" class=\"portfolio-link\" data-project=\""+portfolioInfo.id+"\">"+
                         "<div class=\"portfolio-hover\">"+
                             "<div class=\"portfolio-hover-content\">"+
                                 "<i class=\"fa fa-plus fa-3x\"></i>"+
