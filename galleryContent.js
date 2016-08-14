@@ -27,11 +27,12 @@ $(document).ready(function(){
 		for(index in projectInfo.gallery)
 		{
 	console.log("add 1");
-			var imageUrl = projectInfo.gallery[index];
-			console.log("add string "+imageUrl);
+			var imageData = projectInfo.gallery[index];
+			console.log("add string "+imageData.url);
 			var carouselString = ""+
 			"<div class=\"item\">"+
-            	"<img src=\""+imageUrl+"\" alt=\"...\">"+
+            	"<img src=\""+imageData.url+"\" alt=\"...\">"+
+			    "<div class=\"carousel-caption\">"+imageData.captionText+"</div>"+
             "</div>";
 			carouselHtml = carouselHtml.concat(carouselString);
 

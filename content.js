@@ -17,7 +17,7 @@ $( document ).ready(function() {
                     //"<img src=\""+serviceInfo.img+"\" class=\"img-responsive img-circle\" alt=\"\">"+
                 	"<div class=\"portfolio-caption\">"+
                         "<h4>"+serviceInfo.name+"</h4>"+
-                        "<p class=\"text-muted\">"+serviceInfo.description+"</p>"+
+                        "<h3 class=\"section-subheading text-muted\">"+serviceInfo.description+"</h3>"+
                     "</div>"+
                 "</div>";
 		servicesHtml = servicesHtml.concat(serviceString);
@@ -42,7 +42,7 @@ $( document ).ready(function() {
                     "</a>"+
                     "<div class=\"portfolio-caption\">"+
                         "<h4>"+portfolioInfo.name+"</h4>"+
-                        "<p class=\"text-muted\">"+portfolioInfo.description+"</p>"+
+                        "<h5 class=\"section-subheading text-muted\">"+portfolioInfo.description+"</h5>"+
                     "</div>"+
                 "</div>";
 		portfolioHtml = portfolioHtml.concat(portfolioString);

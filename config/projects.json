@@ -4,33 +4,69 @@ var projectData = {
     {
       "id": 1,
       "name": "Bathroom Remodel",
-      "description": "blahhhh",
+      "description": "Pictures of the finished bathroom remodel",
       "before": "img/gallery/Bathroom/Wang/Wang_IMG2818.jpg",
       "after": "img/gallery/Bathroom/Wang/Wang_IMG2818.jpg",
       "gallery": 
       [
-        "img/gallery/Bathroom/Wang/Wang_IMG2814.jpg",
-        "img/gallery/Bathroom/Wang/Wang_IMG2816.jpg",
-        "img/gallery/Bathroom/Wang/Wang_IMG2818.jpg",
-        "img/gallery/Bathroom/Wang/Wang_IMG2826.jpg"
+        {
+          url:"img/gallery/Bathroom/Wang/Wang_IMG2814.jpg",
+          captionText:""
+        },
+        {
+          url:"img/gallery/Bathroom/Wang/Wang_IMG2816.jpg",
+          captionText:""
+        },
+        {
+          url:"img/gallery/Bathroom/Wang/Wang_IMG2818.jpg",
+          captionText:""
+        },
+        {
+          url:"img/gallery/Bathroom/Wang/Wang_IMG2826.jpg",
+          captionText:""
+        }
       ]
     },
     {
       "id": 2,
       "name": "Kitchen Remodel",
-      "description": "blahhhh",
+      "description": "Befeore and after pictures from the kitchen job",
       "before": "img/gallery/Kitchen/After/Horvai_IMG3295.jpg",
       "after": "img/gallery/Kitchen/After/Horvai_IMG3295.jpg",
       "gallery": 
       [
-        "img/gallery/Kitchen/Before/Horvai_B4_IMG4182.jpg",
-        "img/gallery/Kitchen/Before/Horvai_B4_IMG4183.jpg",
-        "img/gallery/Kitchen/Before/Horvai_B4_IMG4186.jpg",
-        "img/gallery/Kitchen/After/20160524_160101.jpg",
-        "img/gallery/Kitchen/After/Horvai_IMG3295.jpg",
-        "img/gallery/Kitchen/After/Horvai_IMG3306.jpg",
-        "img/gallery/Kitchen/After/Horvai_IMG3338.jpg",
-        "img/gallery/Kitchen/After/Horvai_IMG3341.jpg"
+        {
+          url:"img/gallery/Kitchen/Before/Horvai_B4_IMG4182.jpg",
+          captionText:"Before the remodel"
+        },
+        {
+          url:"img/gallery/Kitchen/Before/Horvai_B4_IMG4183.jpg",
+          captionText:"Before the remodel"
+        },
+        {
+          url:"img/gallery/Kitchen/Before/Horvai_B4_IMG4186.jpg",
+          captionText:"Before the remodel"
+        },
+        {
+          url:"img/gallery/Kitchen/After/20160524_160101.jpg",
+          captionText:"AFTER the remodel"
+        },
+        {
+          url:"img/gallery/Kitchen/After/Horvai_IMG3295.jpg",
+          captionText:"AFTER the remodel"
+        },
+        {
+          url:"img/gallery/Kitchen/After/Horvai_IMG3306.jpg",
+          captionText:"AFTER the remodel"
+        },
+        {
+          url:"img/gallery/Kitchen/After/Horvai_IMG3338.jpg",
+          captionText:"AFTER the remodel"
+        },
+        {
+          url:"img/gallery/Kitchen/After/Horvai_IMG3341.jpg",
+          captionText:"AFTER the remodel"
+        }
       ]
     }
   ]
