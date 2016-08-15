@@ -22,7 +22,7 @@ var servicesData = {
     {
       "id": 4,
       "name": "Lighting",
-      "description": "Lighting up the house with recessed lights, hanging lights, chandeliers.",
+      "description": "Brightening up the house with recessed lights, hanging lights, chandeliers.",
       "img": "img/services/lighting.jpg"
     }
   ]
