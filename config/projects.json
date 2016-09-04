@@ -68,6 +68,32 @@ var projectData = {
           captionText:"AFTER the remodel"
         }
       ]
+    },
+    {
+      "id": 3,
+      "name": "Other",
+      "description": "Miscellaneous projects we worked on throughout the years",
+      "before": "img/gallery/Inlaw/inlaw_IMG_3564_c.jpg",
+      "after": "img/gallery/Inlaw/inlaw_IMG_3564_c.jpg",
+      "gallery": 
+      [
+        {
+          url:"img/gallery/Inlaw/inlaw_IMG_3564_c.jpg",
+          captionText:""
+        },
+        {
+          url:"img/gallery/Inlaw/inlaw_IMG_3565_c.jpg",
+          captionText:""
+        },
+        {
+          url:"img/gallery/Inlaw/inlaw_IMG_3568_c.jpg",
+          captionText:""
+        },
+        {
+          url:"img/gallery/Inlaw/inlaw_IMG_3569_c.jpg",
+          captionText:""
+        }
+      ]
     }
   ]
 
