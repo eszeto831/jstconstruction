@@ -52,7 +52,6 @@ $( document ).ready(function() {
 });
 
 $('#portfolioModal3').on('show.bs.modal', function (event) {
-	console.log("ehehe");
 	var button = $(event.relatedTarget) // Button that triggered the modal
 	var projectId = button.data('project') // Extract info from data-* attributes
 
@@ -63,7 +62,6 @@ $('#portfolioModal3').on('show.bs.modal', function (event) {
 		if(tempProjectInfo.id == projectId)
 		{
 			projectInfo = tempProjectInfo;
-	console.log("found you");
 		}
 
 	}
@@ -72,13 +70,10 @@ $('#portfolioModal3').on('show.bs.modal', function (event) {
 	var carouselIndicatorHtml = "";
 	if(projectInfo != null)
 	{
-	console.log("add you");
 		var modal = $(this)
 		for(index in projectInfo.gallery)
 		{
-	console.log("add 1");
 			var imageUrl = projectInfo.gallery[index];
-			console.log("add string "+imageUrl);
 			var carouselString = ""+
 			"<div class=\"item\">"+
             	"<img src=\""+imageUrl+"\" alt=\"...\">"+
@@ -91,7 +86,6 @@ $('#portfolioModal3').on('show.bs.modal', function (event) {
 
 		}
 
-	console.log(carouselHtml);
 		$(".carousel-inner").html(carouselHtml);
 		$(".carousel-indicators").html(carouselIndicatorHtml);
 

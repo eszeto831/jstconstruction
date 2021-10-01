@@ -1,10 +1,8 @@
 $(document).ready(function(){  
 
-	console.log("ehehe gallery");
 	var button = $(event.relatedTarget) // Button that triggered the modal
 	//var projectId = button.data('project') // Extract info from data-* attributes
 	var projectId = QueryString["project"];
-	console.log("finding you: "+projectId);
 
  	var projectInfo;
 	for(index in projectData.projects)
@@ -13,7 +11,6 @@ $(document).ready(function(){
 		if(tempProjectInfo.id == projectId)
 		{
 			projectInfo = tempProjectInfo;
-	console.log("found you");
 		}
 
 	}
@@ -22,13 +19,10 @@ $(document).ready(function(){
 	var carouselIndicatorHtml = "";
 	if(projectInfo != null)
 	{
-	console.log("add you");
 		var modal = $(this)
 		for(index in projectInfo.gallery)
 		{
-	console.log("add 1");
 			var imageData = projectInfo.gallery[index];
-			console.log("add string "+imageData.url);
 			var carouselString = ""+
 			"<div class=\"item\">"+
             	"<img src=\""+imageData.url+"\" alt=\"...\">"+
@@ -42,7 +36,6 @@ $(document).ready(function(){
 
 		}
 
-	console.log(carouselHtml);
 		$(".carousel-inner").html(carouselHtml);
 		$(".carousel-indicators").html(carouselIndicatorHtml);
 
