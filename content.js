@@ -2,6 +2,7 @@ $( document ).ready(function() {
     $('#landingTitle').html(homeData.landingTitle);
     $('#landingSubtitle').html(homeData.landingSubtitle);
     $('#aboutSub').html(homeData.aboutText);
+    $('#licenseNum').html(homeData.licenseNum);
 
 	var servicesHtml = "";
 	for(index in servicesData.services)

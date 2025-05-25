@@ -1,8 +1,9 @@
 var homeData = {
   "landingTitle": "Greetings from",
   "landingSubtitle": "PW Construction Group",
-  "aboutText": "PW Construction Group is a family run business established in 2025. We partner with some of the best designers in the industry to create a space that is completely your own.<br/><br/>Feel free to check out our portfolio! We look forward to working with you to materialize your beautiful ideas for your home or business.",
+  "aboutText": "PW Construction Group is a family run business established in 2018. We partner with some of the best designers in the industry to create a space that is completely your own.<br/><br/>Feel free to check out our portfolio! We look forward to working with you to materialize your beautiful ideas for your home or business.",
   "aboutImage": "img/test.png",
+  "licenseNum": "CA License 1037387",
   "footerText": "Copyright &copy; PW Construction Group 2025"
 };
 
