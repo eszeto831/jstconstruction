@@ -10,21 +10,33 @@ var servicesData = {
     {
       "id": 2,
       "name": "Bathroom",
-      "description": "Installing tiles, showers, toilets, sinks, pipes.",
+      "description": "Installing tiles, showers, toilets, sinks, pipes. Rebuild to fit your needs.",
       "img": "img/services/bathroom.jpg"
     },
     {
       "id": 3,
       "name": "Kitchen",
-      "description": "Rebuilding kitchens from the ground up.",
+      "description": "Rebuilding kitchens from the ground up. Design the kitchen of your dreams.",
       "img": "img/services/kitchen.jpg"
     },
     {
       "id": 4,
-      "name": "Lighting",
-      "description": "Brightening up the house with recessed lights, hanging lights, chandeliers.",
+      "name": "Electrical",
+      "description": "Lighting, wiring, panel upgrades. Upgrade to take advantage of modern technology",
       "img": "img/services/lighting.jpg"
-    }
+    },
+    {
+      "id": 5,
+      "name": "Drafting",
+      "description": "As built drawing, design consultation for commercial retail, kitchen, bedroom, etc.",
+      "img": "img/services/blueprintSquare.png"
+    },
+    {
+      "id": 6,
+      "name": "Project Management",
+      "description": "Estimate, procurement, planning, handover. Leave everything to us.",
+      "img": "img/services/projectSquare.png"
+    },
   ]
 
 };

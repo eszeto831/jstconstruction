@@ -9,7 +9,7 @@ $( document ).ready(function() {
 	{
 		var serviceInfo = servicesData.services[index];
 	    var serviceString = ""+
-                "<div class=\"col-md-4\">"+
+                "<div class=\"col-md-4 col-sm-6\">"+
                     "<span class=\"fa-stack fa-4x\">"+
                         "<i class=\"fa fa-circle fa-stack-2x text-primary\"></i>"+
                         //"<i class=\"fa fa-shopping-cart fa-stack-1x fa-inverse\"></i>"+
