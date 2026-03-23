@@ -37,6 +37,48 @@ var servicesData = {
       "description": "Estimate, procurement, planning, handover. Leave everything to us.",
       "img": "img/services/projectSquare.png"
     },
+    {
+      "id": 7,
+      "name": "Tesla Powerwall",
+      "description": "The Tesla Powerwall stores energy for future use and pairs seamlessly with solar—delivering greater efficiency, security, and savings. Both the Powerwall 2 and Powerwall 3 feature advanced monitoring, metering, and intelligent controls, all managed through the Tesla app. The system learns your household’s energy patterns, adapts over time, and receives automatic updates to enhance performance and add new features.",
+      "img": "img/services/teslaPowerWall.png"
+    },
+    {
+      "id": 8,
+      "name": "Home Charging Wall Connector",
+      "description": "Wall Connector is designed for houses, apartments, condos and workplaces. The lightweight design allows for versatile, indoor or outdoor mounting that adapts to a range of electrical systems. Work with your own electrician or connect with a Tesla Certified Installer to install a Wall Connector in your home. Wall Connector is our fastest way to charge your electric vehicle, whether a Tesla or non-Tesla, at home.\n\nFor homes with more than one electric vehicle, multiple Wall Connectors can manage power output to meet charging needs. And with Wi-Fi connectivity, you'll always have access to the latest charging features and over-the-air updates.",
+      "img": "img/services/teslaHomeConnector.png"
+    },
+    {
+      "id": 9,
+      "name": "Lighting controls",
+      "description": "Lighting has the power to completely transform how your home feels. Instantly create a warm, relaxing glow, energize a space with brighter tones, or power down the entire house with a single command. With Lutron RadioRA 3, control is seamless—giving you refined, intuitive lighting that elevates everyday living.",
+      "img": "img/services/lightSwitch.png"
+    },
+    {
+      "id": 10,
+      "name": "Automated shades",
+      "description": "Comfort begins with the right balance of privacy and natural light. By pairing automated shades with intelligent lighting, you can shape the ideal setting for a dinner party, a quiet afternoon read, or a restful evening. Our premium shading solutions include Lutron Sivoia, Lutron Triathlon, —designed to deliver effortless control with refined style.  ",
+      "img": "img/services/autoShadesRoom.png"
+    },
+    {
+      "id": 11,
+      "name": "Rethink the Light Switch",
+      "description": "Lighting defines the character of every room. With beautifully crafted wall controls, sleek dimmers, and seamless app-based access, you can tailor every layer of light to suit your lifestyle. Adjust settings without leaving your bed, manage scenes as you move through your home, or stay connected while you’re away.\n\nDesigned to blend effortlessly with your décor, our modern lighting solutions deliver clean aesthetics and intuitive performance—powered by Lutron Electronics.",
+      "img": "img/services/lightSwitch.png"
+    },
+    {
+      "id": 12,
+      "name": "Lighting, Made Effortless",
+      "description": "As you move from room to room, intelligent lighting adapts to elevate each experience. Create a dramatic backdrop for an intimate dinner, a soft welcoming glow for gatherings, or illumination that naturally shifts with the tones of the day. With advanced solutions your home becomes a canvas—where light is thoughtfully crafted to enhance comfort, beauty, and mood.",
+      "img": "img/services/roomLighting.png"
+    },
+    {
+      "id": 13,
+      "name": "Refined, Whisper-Quiet Shading",
+      "description": "Automated shades, blinds, and drapery are a defining feature of the modern smart home. Available in an array of premium fabrics, textures, and finishes, they offer precise control over daylight at any moment. Set the tone for relaxation, filter in soft natural light, or ensure total privacy with a single touch. Smooth, silent, and beautifully integrated, they elevate both everyday comfort and your home’s contemporary design.",
+      "img": "img/services/autoShades.png"
+    },
   ]
 
 };
