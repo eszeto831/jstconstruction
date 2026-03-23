@@ -1,0 +1,24 @@
+var lightingData = {
+  "services": 
+  [
+    {
+      "id": 1,
+      "name": "Rethink the Light Switch",
+      "description": "Lighting defines the character of every room. With beautifully crafted wall controls, sleek dimmers, and seamless app-based access, you can tailor every layer of light to suit your lifestyle. Adjust settings without leaving your bed, manage scenes as you move through your home, or stay connected while you’re away.\n\nDesigned to blend effortlessly with your décor, our modern lighting solutions deliver clean aesthetics and intuitive performance—powered by Lutron Electronics.",
+      "img": "img/services/lightSwitch.png"
+    },
+    {
+      "id": 2,
+      "name": "Lighting, Made Effortless",
+      "description": "As you move from room to room, intelligent lighting adapts to elevate each experience. Create a dramatic backdrop for an intimate dinner, a soft welcoming glow for gatherings, or illumination that naturally shifts with the tones of the day. With advanced solutions your home becomes a canvas—where light is thoughtfully crafted to enhance comfort, beauty, and mood.",
+      "img": "img/services/roomLighting.png"
+    },
+    {
+      "id": 3,
+      "name": "Refined, Whisper-Quiet Shading",
+      "description": "Automated shades, blinds, and drapery are a defining feature of the modern smart home. Available in an array of premium fabrics, textures, and finishes, they offer precise control over daylight at any moment. Set the tone for relaxation, filter in soft natural light, or ensure total privacy with a single touch. Smooth, silent, and beautifully integrated, they elevate both everyday comfort and your home’s contemporary design.",
+      "img": "img/services/autoShades.png"
+    },
+  ]
+
+};

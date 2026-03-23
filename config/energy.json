@@ -1,0 +1,18 @@
+var energyData = {
+  "services": 
+  [
+    {
+      "id": 1,
+      "name": "Tesla Powerwall",
+      "description": "The Tesla Powerwall stores energy for future use and pairs seamlessly with solar—delivering greater efficiency, security, and savings. Both the Powerwall 2 and Powerwall 3 feature advanced monitoring, metering, and intelligent controls, all managed through the Tesla app. The system learns your household’s energy patterns, adapts over time, and receives automatic updates to enhance performance and add new features.",
+      "img": "img/services/teslaPowerWall.png"
+    },
+    {
+      "id": 2,
+      "name": "Home Charging Wall Connector",
+      "description": "Wall Connector is designed for houses, apartments, condos and workplaces. The lightweight design allows for versatile, indoor or outdoor mounting that adapts to a range of electrical systems. Work with your own electrician or connect with a Tesla Certified Installer to install a Wall Connector in your home. Wall Connector is our fastest way to charge your electric vehicle, whether a Tesla or non-Tesla, at home.\n\nFor homes with more than one electric vehicle, multiple Wall Connectors can manage power output to meet charging needs. And with Wi-Fi connectivity, you'll always have access to the latest charging features and over-the-air updates.",
+      "img": "img/services/teslaHomeConnector.png"
+    }
+  ]
+
+};
