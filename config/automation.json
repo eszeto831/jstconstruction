@@ -5,7 +5,7 @@ var automationData = {
       "id": 1,
       "name": "Lighting controls",
       "description": "Lighting has the power to completely transform how your home feels. Instantly create a warm, relaxing glow, energize a space with brighter tones, or power down the entire house with a single command. With Lutron RadioRA 3, control is seamless—giving you refined, intuitive lighting that elevates everyday living.",
-      "img": "img/services/lightSwitch.png"
+      "img": "img/services/lightingControls.png"
     },
     {
       "id": 2,
