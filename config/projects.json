@@ -3,104 +3,70 @@ var projectData = {
   [
     {
       "id": 1,
-      "name": "Bathroom Remodel",
-      "description": "Pictures of the finished bathroom remodel",
-      "before": "img/gallery/Bathroom/Wang/Wang_IMG2818.jpg",
-      "after": "img/gallery/Bathroom/Wang/Wang_IMG2818.jpg",
+      "name": "Past Projects",
+      "description": "Pictures of the finished projects we've completed",
+      "before": "img/gallery/New/b1.png",
+      "after": "img/gallery/New/bkit1.png",
       "gallery": 
       [
         {
-          url:"img/gallery/Bathroom/Wang/Wang_IMG2814.jpg",
+          url:"img/gallery/New/b1.png",
           captionText:""
         },
         {
-          url:"img/gallery/Bathroom/Wang/Wang_IMG2816.jpg",
+          url:"img/gallery/New/bkit1.png",
           captionText:""
         },
         {
-          url:"img/gallery/Bathroom/Wang/Wang_IMG2818.jpg",
+          url:"img/gallery/New/bkit2.png",
           captionText:""
         },
         {
-          url:"img/gallery/Bathroom/Wang/Wang_IMG2826.jpg",
-          captionText:""
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Kitchen Remodel",
-      "description": "Befeore and after pictures from the kitchen job",
-      "before": "img/gallery/Kitchen/After/Horvai_IMG3295.jpg",
-      "after": "img/gallery/Kitchen/After/Horvai_IMG3295.jpg",
-      "gallery": 
-      [
-        {
-          url:"img/gallery/Kitchen/Before/Horvai_B4_IMG4182.jpg",
-          captionText:"Before the remodel"
-        },
-        {
-          url:"img/gallery/Kitchen/Before/Horvai_B4_IMG4183.jpg",
-          captionText:"Before the remodel"
-        },
-        {
-          url:"img/gallery/Kitchen/Before/Horvai_B4_IMG4186.jpg",
-          captionText:"Before the remodel"
-        },
-        {
-          url:"img/gallery/Kitchen/After/20160524_160101.jpg",
-          captionText:"AFTER the remodel"
-        },
-        {
-          url:"img/gallery/Kitchen/After/Horvai_IMG3295.jpg",
-          captionText:"AFTER the remodel"
-        },
-        {
-          url:"img/gallery/Kitchen/After/Horvai_IMG3306.jpg",
-          captionText:"AFTER the remodel"
-        },
-        {
-          url:"img/gallery/Kitchen/After/Horvai_IMG3338.jpg",
-          captionText:"AFTER the remodel"
-        },
-        {
-          url:"img/gallery/Kitchen/After/Horvai_IMG3341.jpg",
-          captionText:"AFTER the remodel"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "New Bathroom",
-      "description": "Brand new bathroom built from the ground up",
-      "before": "img/gallery/Inlaw/inlaw_IMG_3564_c.jpg",
-      "after": "img/gallery/Inlaw/inlaw_IMG_3564_c.jpg",
-      "gallery": 
-      [
-        {
-          url:"img/gallery/Inlaw/inlaw_IMG_3564_c.jpg",
+          url:"img/gallery/New/bkit3.png",
           captionText:""
         },
         {
-          url:"img/gallery/Inlaw/inlaw_IMG_3565_c.jpg",
-          captionText:""
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Other",
-      "description": "Miscellaneous projects we worked on throughout the years",
-      "before": "img/gallery/Inlaw/inlaw_IMG_3568_c.jpg",
-      "after": "img/gallery/Inlaw/inlaw_IMG_3568_c.jpg",
-      "gallery": 
-      [
-        {
-          url:"img/gallery/Inlaw/inlaw_IMG_3568_c.jpg",
+          url:"img/gallery/New/bkit3.png",
           captionText:""
         },
         {
-          url:"img/gallery/Inlaw/inlaw_IMG_3569_c.jpg",
+          url:"img/gallery/New/bkit4.png",
+          captionText:""
+        },
+        {
+          url:"img/gallery/New/fc1.png",
+          captionText:""
+        },
+        {
+          url:"img/gallery/New/fc2.png",
+          captionText:""
+        },
+        {
+          url:"img/gallery/New/fckit1.png",
+          captionText:""
+        },
+        {
+          url:"img/gallery/New/pac1.png",
+          captionText:""
+        },
+        {
+          url:"img/gallery/New/sb1.png",
+          captionText:""
+        },
+        {
+          url:"img/gallery/New/sckit1.png",
+          captionText:""
+        },
+        {
+          url:"img/gallery/New/sm1.png",
+          captionText:""
+        },
+        {
+          url:"img/gallery/New/sm2.png",
+          captionText:""
+        },
+        {
+          url:"img/gallery/New/smkit1.png",
           captionText:""
         }
       ]
