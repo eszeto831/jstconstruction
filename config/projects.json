@@ -26,10 +26,6 @@ var projectData = {
           captionText:""
         },
         {
-          url:"img/gallery/New/bkit3.png",
-          captionText:""
-        },
-        {
           url:"img/gallery/New/bkit4.png",
           captionText:""
         },
